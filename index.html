@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>js-biglietto-treno</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <p id="treniThomas">TRENITHOMAS</p>
+            
+            <div class="form-container">
+                <div class="input-group">
+                    <form>
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" id="name" name="nome"><br>
+                    </form>
+                </div>
+                <div class="input-group">
+                    <form>
+                        <label for="fname">Cognome:</label><br>
+                        <input type="text" id="surname" name="cognome"><br>
+                    </form>
+                </div>
+                <div class="input-group">
+                    <form>
+                        <label for="fname">Km da percorrere:</label><br>
+                        <input type="number" id="km_distance" name="kilometraggio"><br>
+                    </form>
+                </div>
+                <div class="input-group">
+                    <form>
+                        <label for="fname">Età:</label><br>
+                        <input type="number" id="age" name="anni"><br>
+                    </form>
+                </div>
+                <div class="input-group">
+                    <button type="button" id="mySaveButton">Save!</button>
+                    <button type="button" id="myCancelButton">Cancel</button>
+                </div>
+            </div>
+
+            <div class="checkout-container">
+                <h1 class="t-align-c">IL TUO BIGLIETTO</h1>
+                <div class="ticket-results-container">
+                    <div class="info-box">
+                        <h2>Nome passeggero: </h2>
+                        <p id="nomeP"></p>
+                    </div>
+                    <div class="info-box">
+                        <h2>Sconto: </h2>
+                        <p id="discount"></p>
+                    </div>
+                    <div class="info-box">
+                        <h2>Carrozza</h2>
+                        <p id="carrozza"></p>
+                    </div>
+                    <div class="info-box">
+                        <h2>Costo biglietto</h2>
+                        <p id="prezzoB"></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>

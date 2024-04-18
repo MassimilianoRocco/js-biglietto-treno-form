@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.t-align-c{
+    text-align: center;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/Thomas.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(43, 44, 46, 0.6);
+    border-radius: 15px;
+    color: white;
+    position: relative;
+}
+
+#treniThomas{
+    position: absolute;
+    top: 2%;
+    background-image:
+    -webkit-linear-gradient(-45deg, 
+                            transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                            rgba(0,0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(top, 
+                            rgba(255, 255, 255, .25), 
+                            rgba(0, 0, 0, .25)),
+    -webkit-linear-gradient(left, #09c, #f44);
+
+ border-radius: 2px; 
+ background-size: 35px 20px, 100% 100%, 100% 100%;
+ font-size: 2rem;
+
+}
+
+.form-container{
+    width: 100%;
+    height: 50%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.checkout-container{
+    height: 47%;
+    width: 100%;
+}
+
+.input-group{
+    width: calc(100% / 4);
+    text-align: center;
+}
+.input-group button{
+    border-color: #09c;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.ticket-results-container{
+    width: 100%;
+    display: flex;
+}
+.info-box{
+    width: 25%;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.info-box p{
+    margin-top: 1rem;
+    background-image:
+    -webkit-linear-gradient(-45deg, 
+                            transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                            rgba(0,0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(top, 
+                            rgba(255, 255, 255, .25), 
+                            rgba(0, 0, 0, .25)),
+    -webkit-linear-gradient(left, rgb(15, 192, 83), rgb(172, 47, 31));
+
+ border-radius: 2px; 
+ background-size: 35px 20px, 100% 100%, 100% 100%;
+ font-size: 2rem;
+}
