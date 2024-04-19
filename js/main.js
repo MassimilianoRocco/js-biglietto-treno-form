@@ -1,7 +1,7 @@
 const SaveButton = document.getElementById("mySaveButton");
 const CancButton = document.getElementById("myCancelButton");
 
-
+// SAVE BUTTON
 SaveButton.addEventListener('click', function() {
         let nome = document.getElementById("name");
         let cognome = document.getElementById("surname");
@@ -31,4 +31,11 @@ SaveButton.addEventListener('click', function() {
         document.getElementById("prezzoB").innerHTML = tariffaFinale;
     });
 
-//STAMPA IN HTML
+// CANCEL BUTTON
+CancButton.addEventListener('click', function() {
+        document.getElementById("name").value = ""
+        document.getElementById("surname").value = "";
+        document.getElementById("km_distance").value = "";
+        document.getElementById("age").value = "";
+    });
+
